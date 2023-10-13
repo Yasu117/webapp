@@ -12,22 +12,22 @@ function evaluateResults() {
 
     switch (yesCount) {
         case 0:
-            resultText = "あなたは独立独歩のタイプ感じます。";
+            resultText = "あなたは独立独歩のタイプです。";
             break;
         case 1:
-            resultText = "あなたは慎重なタイプ感じます。";
+            resultText = "あなたは慎重なタイプです。";
             break;
         case 2:
-            resultText = "あなたはバランスが取れたタイプ感じます。";
+            resultText = "あなたはバランスが取れたタイプです。";
             break;
         case 3:
-            resultText = "あなたは社交的なタイプ感じます。";
+            resultText = "あなたは社交的なタイプです。";
             break;
         case 4:
-            resultText = "あなたはアドベンチャラスなタイプ感じます。";
+            resultText = "あなたはアドベンチャラスなタイプです。";
             break;
         case 5:
-            resultText = "あなたは非常に積極的なタイプ感じます。";
+            resultText = "あなたは非常に積極的なタイプです。";
             break;
         default:
             resultText = "エラーが発生しました。もう一度お試しください。";
