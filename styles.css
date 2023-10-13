@@ -1,41 +1,45 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4; 
-  color: #333; 
-  padding: 50px; 
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 50px;
 }
 
 h1 {
-  font-size: 36px; /* フォントサイズを大きく */
+  font-size: 36px;
   color: #4A90E2;
-  border-bottom: 3px solid #4A90E2; /* 下線を追加 */
-  padding-bottom: 10px; /* 下線とテキストとの間のスペース */
-  margin-bottom: 20px; /* タイトルの下のスペース */
+  border-bottom: 3px solid #4A90E2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #questions-container, #result {
-  background-color: #fff; 
-  padding: 20px; 
-  border-radius: 5px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  padding: 15px; /* 枠内のスペースを少し減らす */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%; /* 枠の幅を少し減らす */
+  margin: 0 auto; /* 枠を中央揃えにする */
 }
 
 #diagnose-button {
-  display: block; 
-  width: 250px; /* 幅をもっと大きく */
-  margin: 20px auto; 
-  padding: 15px 20px; /* ボタン内のスペースを増やす */
-  font-size: 18px; /* フォントサイズを大きく */
+  display: block;
+  width: 280px; /* ボタンの幅をもっと大きく */
+  margin: 25px auto; 
+  padding: 20px 25px; /* ボタン内のスペースを増やす */
+  font-size: 20px; /* フォントサイズを大きく */
   background-color: #4A90E2;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px; /* 角をもう少し丸く */
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s; /* 背景色とサイズの変更アニメーションを追加 */
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 #diagnose-button:hover {
   background-color: #357ABD;
-  transform: scale(1.05); /* ホバー時にボタンのサイズを少し大きく */
+  transform: scale(1.1); /* ホバー時にボタンのサイズをさらに大きく */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* ホバー時に影を強調 */
 }
+
 
