@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>性格診断テスト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>性格診断テスト</h2>
+    <form id="quizForm">
+        <p>1. 人が集まる場所に行くことが好きですか？</p>
+        <input type="radio" name="q1" value="yes">Yes
+        <input type="radio" name="q1" value="no">No
+
+        <p>2. 新しい活動や挑戦をすることが好きですか？</p>
+        <input type="radio" name="q2" value="yes">Yes
+        <input type="radio" name="q2" value="no">No
+
+        <p>3. 人から指導やアドバイスを受けることが気になりませんか？</p>
+        <input type="radio" name="q3" value="yes">Yes
+        <input type="radio" name="q3" value="no">No
+
+        <p>4. ルーティンワークは安心感を感じますか？</p>
+        <input type="radio" name="q4" value="yes">Yes
+        <input type="radio" name="q4" value="no">No
+
+        <p>5. 単独で作業することが好きですか？</p>
+        <input type="radio" name="q5" value="yes">Yes
+        <input type="radio" name="q5" value="no">No
+        
+        <br><br><br><br>
+        <button type="button" onclick="evaluateResults()">結果を見る</button>
+    </form>
+    <h3>結果:</h3>
+    <p id="result"></p>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
